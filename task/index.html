@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="js/validate.js"></script>
+</head>
+
+<body>
+    <form method="GET" id="form1">
+        <input type="text" id="name" minlength="3" autocomplete="off" maxlength="50" required placeholder="Məhsulun adı">
+        <br>
+        <span id="name_alert"></span>
+
+        <br>
+        <input type="number" id="weight" min="1" max autocomplete="off" required placeholder="Çəki">
+        <br>
+        <span id="weight_alert"></span>
+
+        <br>
+        <select name="" required id="select">
+            <option value="0"> --Kategoriya seçin--</option>
+            <option value="1" id="meat">Ət</option>
+            <option value="2" id="sweet">Şirniyyat</option>
+            <option value="3" id="vegetable">Tərəvəz</option>
+        </select>
+        <br>
+        <span id="select_alert"></span>
+        <br>
+        <input type="number" min="1" required id="price" autocomplete="off" placeholder="Qiymət">
+        <br>
+        <span id="price_alert"></span>
+        <br>
+        <input type="date" min='2018-10-06' required id="lastdate" placeholder="Son istifadə tarixi">
+        <br>
+        <span id="date_alert"></span>
+        <br>
+        <button id="add" onclick="return Add()">Məhsul əlavə ət</button>
+        <br>
+    </form>
+
+
+
+    <div class="show">
+        <span id="sum">Anbardakı mal sayı :</span>
+        <span id="malsayi"></span>
+        <br>
+        <span id="kategoriya">Kategoriyalar üzrə:</span>
+        <br>
+        <span id="et">Ət -</span>
+        <span id="etsayi">0</span>
+        <br>
+        <span id="shirniyyat">Şirniyyat -</span>
+        <span id="shirniyyatsayi">0</span>
+        <br>
+        <span id="terevez">Tərəvəz -</span>
+        <span id="terevezsayi">0</span>
+        <br>
+    </div>
+
+</body>
+
+</html>

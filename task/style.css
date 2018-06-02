@@ -1,0 +1,76 @@
+.show h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.show {
+    position: absolute;
+    top: 27px;
+    left: 589px;
+    width: 230px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 5px;
+    line-height: 32px;
+}
+
+.show span {
+    padding: 10px;
+}
+
+#form1 {
+    width: 300px;
+    height: 290px;
+    margin-left: 170px;
+    background: rgb(28, 56, 85);
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+form span {
+    color: red;
+    margin-left: 77px;
+}
+
+#name {
+    width: 170px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+#weight {
+    width: 170px;
+    height: 20px;
+    margin-left: 60px;
+}
+
+#select {
+    width: 174px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+#price {
+    width: 170px;
+    height: 20px;
+    margin-left: 60px;
+}
+
+#lastdate {
+    width: 169px;
+    height: 23px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+#add {
+    margin-left: 93px;
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    outline: none;
+    cursor: pointer;
+    height: 30px;
+}
